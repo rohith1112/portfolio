@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link rel="icon" href="images-removebg-preview.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <label class="logo"><img style="height:100%" src="img/iconlogo.png" ></label>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a style="cursor:pointer"><svg fill="#ffffff" width="64px" height="64px" viewBox="-16 -16 48.00 48.00" id="home-16px" xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                
+                <g id="SVGRepo_iconCarrier"> <path id="Path_77" data-name="Path 77" d="M-13,11.5v2A2.5,2.5,0,0,1-15.5,16h-4A2.5,2.5,0,0,1-22,13.5V2.5A2.5,2.5,0,0,1-19.5,0h4A2.5,2.5,0,0,1-13,2.5v2a.5.5,0,0,1-.5.5.5.5,0,0,1-.5-.5v-2A1.5,1.5,0,0,0-15.5,1h-4A1.5,1.5,0,0,0-21,2.5v11A1.5,1.5,0,0,0-19.5,15h4A1.5,1.5,0,0,0-14,13.5v-2a.5.5,0,0,1,.5-.5A.5.5,0,0,1-13,11.5Zm6.962-3.809a.505.505,0,0,0,0-.382.518.518,0,0,0-.109-.163l-4-4a.5.5,0,0,0-.708,0,.5.5,0,0,0,0,.708L-7.707,7H-17.5a.5.5,0,0,0-.5.5.5.5,0,0,0,.5.5h9.793l-3.147,3.146a.5.5,0,0,0,0,.708A.5.5,0,0,0-10.5,12a.5.5,0,0,0,.354-.146l4-4A.518.518,0,0,0-6.038,7.691Z" transform="translate(22)"/> </g>
+                
+                </svg></a></li>
+            <li><a href="#home" >Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><a href="#home">Home</a></li>
+            <li class="hideOnMobile"><a href="#about">About</a></li>
+            <li class="hideOnMobile"><a href="#skills">Skills</a></li>
+            <li class="hideOnMobile"><a href="#projects">Projects</a></li>
+            <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+            <li class="menu-button"  onclick=showSidebar()><a style="cursor:pointer" ><svg width="64px" height="64px" viewBox="-24 -24 72.00 72.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#181c26">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                
+                <g id="SVGRepo_iconCarrier"> <path d="M21.93 6.76001L18.56 20.29C18.32 21.3 17.42 22 16.38 22H3.24001C1.73001 22 0.650023 20.5199 1.10002 19.0699L5.31001 5.55005C5.60001 4.61005 6.47003 3.95996 7.45003 3.95996H19.75C20.7 3.95996 21.49 4.53997 21.82 5.33997C22.01 5.76997 22.05 6.26001 21.93 6.76001Z" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10"/> <path d="M16 22H20.78C22.07 22 23.08 20.91 22.99 19.62L22 6" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M9.67999 6.38L10.72 2.06006" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M16.38 6.39001L17.32 2.05005" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M7.70001 12H15.7" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M6.70001 16H14.7" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> </g>
+                
+                </svg></a></li>
+        </ul>
+    </nav>
+</header>
+    <section id="home">
+        <p class="hello">--- Hello</p>
+        <h2 style="font: size 22px;">I'm <span style="color:#f3c370">Rohith</span> Thirunalveli</h2>
+        <p class="description" style="margin-left:15px;margin-bottom:20px;margin-right:-100px">This is Rohith, a passionate and results-driven web developer dedicated to creating efficient, user-friendly, and visually appealing websites. With a strong foundation in front-end and back-end technologies, I bring a unique blend of creativity and technical expertise to every project.</p>
+        <div class="center">
+            <button class="btn" onclick="openResume()">
+                <svg width="180" height="60" viewBox="0 0 180 60" class="btn-svg">
+                  <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                  <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                </svg>
+                <span>Resume</span>
+              </button>
+        </div>
+    <section id="about" style="margin-top:25px">
+        <img class="profile" alt="zoro" style="float:left;margin-top:18px;margin-left:-30px;margin-right:30px;" src="img/profile-pic.jpg">
+        <h3 style="margin-left:10px;margin-right:10px;color:#f3c370">-- About Me</h3>
+        <p class="info" style="margin-right:-100px;margin-left:90px">I'm a Web Developer with experience in front-end development, HTML5, JavaScript, Python, React, Next.js, Node.js, Java and Springboot. Located in India, looking for working across the globe.</p><br>
+        <div class="age">
+            <p><span style="color:#f3c370">Age</span><span style="color:#181c26">.................</span>: <span style="color:#181c26">..</span>22</p>
+            <p><span style="color:#f3c370">Qualification</span><span style="color:#181c26">..</span> : <span  style="color:#181c26">..</span>B.Tech</p>
+            <p><span style="color:#f3c370">Phone</span><span style="color:#181c26">........0.0</span>: <span  style="color:#181c26">..</span>+91 9182396192</p>
+            <p><span style="color:#f3c370">Email</span><span style="color:#181c26">....... . 00 </span>: <span  style="color:#181c26">..</span>rohithvits116@gmail.com</p>
+            <p><span style="color:#f3c370">Address</span><span style="color:#181c26">... . 00 </span>: <span  style="color:#181c26">..</span>Andhra Pradesh, India</p>
+            <p><span style="color:#f3c370">Freelance</span><span style="color:#181c26">...00 </span>: <span  style="color:#181c26">..</span>Available</p>
+        </div>
+        <button class="knowmore" type="button">Know more</button>
+        <div id="popup-container" class="popup-container">
+            <div class="popup-content">
+                <span id="close-btn" class="close-btn">&times;</span>
+                <section id="education" class="resume-section">
+                    <h3 style="color:#f3c370">Education</h3>
+                    
+                    <div class="education-entry">
+                        <div class="education-info">
+                            <h4 class="degree">- B.Tech</h4>
+                            <p class="institution">PBR Visvodaya Institute of Technology and Science</p>
+                            <p class="duration">2019 - 2023</p>
+                        </div>
+                        <p class="percentage">70%</p>
+                    </div>
+                    
+                    <div class="education-entry">
+                        <div class="education-info">
+                            <h4 class="degree">- Intermediate</h4>
+                            <p class="institution">Narayana Junior College</p>
+                            <p class="duration">2017 - 2019</p>
+                        </div>
+                        <p class="percentage">87.8%</p>
+                    </div>
+                    
+                    <div class="education-entry">
+                        <div class="education-info">
+                            <h4 class="degree">- 10th Standard</h4>
+                            <p class="institution">Narayana High School</p>
+                            <p class="duration">2016 - 2017</p>
+                        </div>
+                        <p class="percentage">90.2%</p>
+                    </div>
+                    <h3 style="color:#f3c370">Achievements</h3>
+                    <ul>
+                        <p>- Certified and completed the one month internship from GlobalTech company in Web development.</p>
+                        <p>- I hold certifications in Full Stack Development, Python programming, MySql, and Java.</p>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="inner">
+                <h3 style="color:#f3c370;top:0">-- Skills</h3>
+            <div class="container">
+                <div class="skill-box">
+                    <div class="skill-box">
+                        <div class="skill-info">
+                          <img src="img/html.png" class="skill-icon" alt="HTML5">
+                          <h4>HTML5</h4>
+                        </div>
+                        <div class="skill-details">
+                          <meter value="80" min="0" max="100">80%</meter>
+                          <!-- Other skill details go here -->
+                        </div>
+                      </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box">
+                        <div class="skill-info">
+                          <img src="img/html.png" class="skill-icon" alt="HTML5">
+                          <h4>HTML5</h4>
+                        </div>
+                        <div class="skill-details">
+                          <meter value="80" min="0" max="100">80%</meter>
+                          <!-- Other skill details go here -->
+                        </div>
+                      </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box">
+                        <div class="skill-info">
+                          <img src="img/html.png" class="skill-icon" alt="HTML5">
+                          <h4>HTML5</h4>
+                        </div>
+                        <div class="skill-details">
+                          <meter value="80" min="0" max="100">80%</meter>
+                          <!-- Other skill details go here -->
+                        </div>
+                      </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box">
+                        <div class="skill-info">
+                          <img src="img/html.png" class="skill-icon" alt="HTML5">
+                          <h4>HTML5</h4>
+                        </div>
+                        <div class="skill-details">
+                          <meter value="80" min="0" max="100">80%</meter>
+                          <!-- Other skill details go here -->
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nihil ea architecto, neque perferendis ab harum officia doloremque, esse nesciunt accusantium corrupti est culpa enim optio! Iusto deserunt ex similique? Showcase of previous projects with project details.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Contact form or email address for potential employers or collaborators.</p>
+        <p>Links to professional social media profiles (LinkedIn, GitHub).</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Web Developer Portfolio</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
